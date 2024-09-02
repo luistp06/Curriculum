@@ -76,6 +76,10 @@ h4{
   font-weight: 300;
   margin-left: 0%;
 }
+div#image{
+  height: 90%; 
+margin-bottom: -100px;
+}
 
 header >nav>h2{
   font-size: 35px;
@@ -91,6 +95,7 @@ header >nav>ul>li>a{
 
 @media (max-width: 1000px) {
 
+  
   header >nav>h2{
     font-size: 35px;
   }
@@ -141,6 +146,7 @@ header >nav>ul>li>a{
   div#image{
     height: 80%; 
  display: flex;
+ margin-bottom: 0;
  
 
  }
@@ -244,6 +250,9 @@ div.phone > img {
 button.my-btn > h4{
   font-size: 20px;
 }
+header{
+    position: relative;
+  }
 
 }
 
@@ -278,6 +287,9 @@ img#luisnoche{
 }
 p{
   font-size: 10px;
+}
+header{
+  position: relative;
 }
 }
 
