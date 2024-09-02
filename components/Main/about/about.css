@@ -1,0 +1,57 @@
+
+#about{
+    margin: 1rem 15rem;
+}
+#sobremi{
+    margin-top: 4rem;
+}
+#parrafo{
+    margin-top: 40px;
+}
+
+#about > div{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#list{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    margin-top: 2rem;
+    justify-content: center;
+    list-style: none;
+    font-size: 22px;
+}
+#about >div > ul > li{background-color: rgba(197, 134, 24, 0.866);
+    padding: 5px 2rem;
+    border-radius: 8px;
+}
+h2{
+    font-size: 35px;
+    margin: 20px;
+}
+p{
+    font-size: 22px;
+}
+#address{
+    margin-top: 2rem;
+}
+#contact{
+    margin: 4rem 0 2rem 0;
+    padding: 0.7rem 3rem;
+    border-style: none;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    background-color: #2f568b;
+}
+#luisnoche{
+    height: 600px;
+    border-radius: 30px;
+    filter: drop-shadow(10px 10px 10px black);
+    margin: 1rem;
+}
+

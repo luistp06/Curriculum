@@ -1,0 +1,48 @@
+
+header{
+z-index: 1;
+  position: sticky;
+  top: 0;
+  opacity: 100%;
+  background-color: rgb(44, 44, 44);
+  
+}
+
+nav > h2{
+  font-size: 50px;
+}
+
+nav {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    flex-wrap: nowrap;
+  }
+  
+ 
+  
+  nav > ul {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;
+  }
+  
+  nav button {
+    background: none;
+    border: none;
+    color: inherit;
+    transform: scale(1.5);
+  }
+  
+  nav a {
+    transition: all 0.3s ease-in-out;
+    font-size: 30px;
+  }
+  
+  nav a:hover {
+    color: rgba(197, 134, 24, 0.866);
+  }
+  

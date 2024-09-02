@@ -1,0 +1,13 @@
+#content{
+    margin-top: 1rem;
+}
+
+
+#formation1, #formation2, #extra{
+    margin: 40px;
+}
+
+
+h4,p{
+    font-weight: 100;
+}

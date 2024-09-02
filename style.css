@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 100vh;
+  transition: all 0.5s ease-in-out;
+}
+.light {
+  background-color:  white;
+  color: #242424;
+}
+
+
+.light > header{
+  background-color: rgb(242, 242, 242); 
+  color: #242424;
+  opacity: 100%;
+  z-index: 1;
+}
+.light > header > nav a:hover {
+  color: #537895;
+}
+
+.light> header > nav > ul > li > a{
+ color: #242424; 
+}
+
+a{
+  list-style: none;
+  text-decoration: none;
+ color:rgba(255, 255, 255, 0.87) ;
+}
+
+
+h3{
+  font-size: 25px;
+  margin: 0;
+}
+h4{
+  font-size: 20px;
+}
+
+
+#pageBtn{
+  margin-bottom: 2rem;
+  margin-top: 5rem;
+    padding: 0.7rem 1.5rem;
+    border-style: none;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    background-color: #446ea8;
+    color:rgba(255, 255, 255, 0.87) ;
+
+}
+.grey{
+    color:  rgb(149, 149, 149);
+}
+@media (max-width: 1300px) {
+ section>button>div>h1{
+  font-size: 5em;
+}
+#heroh2{
+  font-size: 1.5rem;
+  margin: 0;
+  font-weight: 300;
+  margin-left: 0%;
+}
+
+header >nav>h2{
+  font-size: 35px;
+}
+header >nav{
+  padding: 0 5%;
+}
+header >nav>ul>li>a{
+  font-size: 22px;
+}
+
+}
+
+@media (max-width: 1000px) {
+
+  header >nav>h2{
+    font-size: 35px;
+  }
+  header >nav{
+    padding: 0 5%;
+  }
+  header >nav>ul>li>a{
+    font-size: 18px;
+  }
+  button#themeBTn{
+    height: 1px;
+  }
+
+  section#about {
+    margin: 1rem 8rem;
+  }
+
+ #list{
+  flex-wrap: wrap;
+  padding: 0;
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  font-size: 10px;
+ }
+ #projectsContainer{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+  width: 90%;
+  gap: 8vw;
+}
+ div#projectsContainer > div{
+  max-width: none;
+  width: 95%;
+  height: auto;
+  margin: 2rem 0;
+}
+}
+@media (max-width: 900px) {
+  button#changeHero{
+    display: flex;
+    flex-direction: column;
+  }
+  div#image{
+    height: 80%; 
+ display: flex;
+ 
+
+ }
+ section#Hero.invert  div#image{
+  display: flex;
+  height: 100%;
+  margin-left:8%;
+  align-items: end;
+ }
+ section#Hero.invert  #luis{
+  transform: none;
+  height: 80%;
+ margin-bottom: -0.2%;
+ filter: drop-shadow(5px 5px 10px black);
+}
+section#Hero.invert div#text{
+ right: 18%;
+ left: 18%;
+}
+  #links{
+    gap: 5%;
+}
+header >nav>h2{
+  display: none;
+}
+header >nav{
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+header >nav>ul>li>a{
+  font-size: 22px;
+}
+header >nav>ul{
+  justify-content: space-between;
+  width: 90%;
+  padding: 0;
+}
+section#Hero.invert  div#text{
+  right: 0%;
+  left: 0;
+}
+div#text{
+  margin-top: 20px;
+}
+}
+@media (max-width: 700px) {
+  .prescindible{
+    display: none;
+  }
+  header >nav>h2{
+    display: inline;
+  }
+  header >nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  header >nav>ul{
+    justify-content: center;
+    width: 20%;
+    padding: 0;
+  }
+  div#text{
+    margin-left: 0%;
+    display: flex;
+    flex-direction: column;
+}
+section#links{
+  gap: 7%;
+}
+button.my-btn {
+  width: 8rem;
+  height: 3rem;
+  padding: 0 0rem;
+  gap: 0.6rem;
+  margin-bottom:1.5rem;
+ 
+}
+div.phone {
+  gap: 0.6rem;
+  margin-bottom:1.5rem;
+ 
+}  
+div.phone > h4{
+font-size: 20px;
+ 
+}  
+button.my-btn > img {
+  height: 20px;
+  width: 20px;
+  filter: invert(95%);
+}
+
+div.phone > img {
+  height: 20px;
+  width: 20px;
+  filter: invert(95%);
+}
+button.my-btn > h4{
+  font-size: 20px;
+}
+
+}
+
+@media (max-width: 460px) {
+  section#Hero.invert  div#image{
+    display: flex;
+    height: 80%;
+    margin-right: 0;
+    align-items: end;
+    bottom: 0;
+   }
+   section#links{
+    gap: 1%;
+  }
+  #Hero.invert {
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    transform: scale(1.01); 
+  }
+ 
+div#image{
+  height: 70%; 
+display: flex;
+}
+header >nav>h2{
+  font-size: 30px;
+}
+img#luisnoche{
+  height: 500px;
+  border-radius: 30px;
+  filter: drop-shadow(10px 10px 10px black);
+  margin: 1rem;
+}
+p{
+  font-size: 10px;
+}
+}
+

@@ -1,0 +1,7 @@
+.experiencia{
+    margin: 40px;
+}
+.experiencia > h3 , h4 ,p{
+    padding: 0;
+    margin: 0;
+}
