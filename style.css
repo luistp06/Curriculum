@@ -250,10 +250,6 @@ div.phone > img {
 button.my-btn > h4{
   font-size: 20px;
 }
-header{
-    position: relative;
-  }
-
 }
 
 @media (max-width: 460px) {
@@ -288,8 +284,6 @@ img#luisnoche{
 p{
   font-size: 10px;
 }
-header{
-  position: relative;
-}
+
 }
 
