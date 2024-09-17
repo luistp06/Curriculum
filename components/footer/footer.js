@@ -11,7 +11,7 @@ export const footer= () => `
 </div>
 <div class="phone">
 <img src="../assets/llamar.png" alt="tlf icon"/>
-<h4>675485656</h4>
+<h4>675422652</h4>
 </div>
 <div>
   <a href="https://github.com/luistp06" target="_blank">
